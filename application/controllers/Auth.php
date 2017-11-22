@@ -24,7 +24,7 @@ class Auth extends CI_Controller{
             redirect('/User', 'refresh');
         }else{
             $data = array( 
-                'email'     => 'asepgantenk@gmail.com', 
+                'email'     => $email, 
                 'logged_in' => TRUE
             );         
         }
